@@ -181,7 +181,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(593, 298);
+            this.tabPage3.Size = new System.Drawing.Size(707, 298);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Out";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -193,7 +193,7 @@
             this.buttonOutFileOpen.Name = "buttonOutFileOpen";
             this.buttonOutFileOpen.Size = new System.Drawing.Size(155, 25);
             this.buttonOutFileOpen.TabIndex = 2;
-            this.buttonOutFileOpen.Text = "Open output file in notepad";
+            this.buttonOutFileOpen.Text = "Открыть файл в Блокноте";
             this.buttonOutFileOpen.UseVisualStyleBackColor = true;
             this.buttonOutFileOpen.Click += new System.EventHandler(this.buttonOutFileOpen_Click);
             // 
@@ -202,9 +202,9 @@
             this.buttonChange.Location = new System.Drawing.Point(43, 165);
             this.buttonChange.Margin = new System.Windows.Forms.Padding(2);
             this.buttonChange.Name = "buttonChange";
-            this.buttonChange.Size = new System.Drawing.Size(102, 26);
+            this.buttonChange.Size = new System.Drawing.Size(155, 26);
             this.buttonChange.TabIndex = 1;
-            this.buttonChange.Text = "Change output file";
+            this.buttonChange.Text = "Выбрать файл для записи";
             this.buttonChange.UseVisualStyleBackColor = true;
             this.buttonChange.Click += new System.EventHandler(this.buttonChange_Click);
             // 
