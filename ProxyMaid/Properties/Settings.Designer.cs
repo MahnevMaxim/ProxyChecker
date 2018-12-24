@@ -25,7 +25,7 @@ namespace ProxyMaid.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://mybot.su/judge.php")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://azenv.net")]
         public string ProxyJudge {
             get {
                 return ((string)(this["ProxyJudge"]));

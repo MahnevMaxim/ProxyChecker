@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ProxyJudge" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://mybot.su/judge.php</Value>
+      <Value Profile="(Default)">http://azenv.net</Value>
     </Setting>
     <Setting Name="ProxyTimeOut" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">15</Value>

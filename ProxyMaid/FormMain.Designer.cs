@@ -60,6 +60,7 @@
             this.logToFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelThreads = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -100,7 +101,7 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(589, 294);
+            this.dataGridView1.Size = new System.Drawing.Size(703, 294);
             this.dataGridView1.TabIndex = 3;
             // 
             // tabControl1
@@ -116,7 +117,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(601, 324);
+            this.tabControl1.Size = new System.Drawing.Size(715, 324);
             this.tabControl1.TabIndex = 4;
             // 
             // tabPage1
@@ -126,7 +127,7 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(593, 298);
+            this.tabPage1.Size = new System.Drawing.Size(707, 298);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Proxy servers";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -298,7 +299,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(601, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(715, 24);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -397,11 +398,23 @@
             this.labelThreads.TabIndex = 8;
             this.labelThreads.Text = "Threads:";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.Location = new System.Drawing.Point(460, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(249, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Купить приватные прокси";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 378);
+            this.ClientSize = new System.Drawing.Size(715, 378);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.labelThreads);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label1);
@@ -464,6 +477,7 @@
         private System.Windows.Forms.ToolStripMenuItem logToFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clearLogToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addProxyToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 

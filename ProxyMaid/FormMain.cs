@@ -328,10 +328,12 @@ namespace ProxyMaid
             FormAddProxy fms = new FormAddProxy(this, Global);
             fms.Show();
         }
-        
 
-
-
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("http://foxy-proxy.ru/");
+            Process.Start(sInfo);
+        }
     }
 
 }
